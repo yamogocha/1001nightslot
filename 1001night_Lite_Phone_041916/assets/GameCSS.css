@@ -1,0 +1,468 @@
+#game-container{
+	position: absolute;
+	overflow:hidden;
+	width:568px;
+	height:320px;
+	left: 0px;
+	top: 0px;
+}
+
+.gamebg{
+	background-image:url("gameBG_iPhone.png");
+	position: absolute;
+	width:568px;
+	height:320px;
+	left:0px;
+	top:0px;
+}
+
+.reels{
+	position:absolute;
+	overflow:hidden;
+    width: 568px;
+    height: 204px;
+    left: 0px;
+    top: 56px;
+}
+
+#reel1{
+	position: absolute;
+    width: 73px;
+    left: 98px;
+}
+
+#reel2{
+	position: absolute;
+	width: 73px;
+    left: 173px;
+}
+
+#reel3{
+	position: absolute;
+    width: 73px;
+    left: 248px;
+}
+
+#reel4{
+	position: absolute;
+    width: 73px;
+    left: 322px;
+}
+
+#reel5{
+	position: absolute;
+    width: 73px;
+    left: 396px;
+}
+
+.reel-top{
+	top: -714px;
+}
+
+.reel-spin{
+	top: -714px;
+	-webkit-animation: reel-spin 2s cubic-bezier(0.46, 0.1, 0.63, 1.35);
+}
+
+.image1{
+	background-image: url("A_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.image2{
+	background-image: url("camel_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.image3{
+	background-image: url("carpet_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.image4{
+	background-image: url("falcon_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.image5{
+	background-image: url("freespin_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.image6{
+	background-image: url("J_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.image7{
+	background-image: url("K_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.image8{
+	background-image: url("lamp_iPhone.png");
+	background-position-y: 125px;
+	position: absolute;
+	width:73px;
+	height:67px;
+}
+
+.image9{
+	background-image: url("prince_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:67px;
+	background-position-y: 128px;
+}
+
+.image10{
+	background-image: url("princess_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:67px;
+}
+
+.image11{
+	background-image: url("Q_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.image12{
+	background-image: url("wild_iPhone.png");
+	position: absolute;
+	width:73px;
+	height:51px;
+}
+
+.level{
+    left: 120px;
+    top: 14px;
+    font-weight: bold;
+}
+
+.yellowbar{
+	background-image: url("yellowbar_iPhone.png");
+	position: absolute;
+	width:67px;
+	height:10px;
+    left: 189px;
+    top: 19px;
+    -webkit-transform-origin:0 50%;
+    -webkit-transform:scaleX(0);
+}
+
+.yellowglare{
+	background-image: url("emptybarYellow_iPhone.png");
+	position: absolute;
+	width:68px;
+	height:11px;
+    left: 188px;
+    top: 18px;
+}
+
+.greenbar{
+	background-image: url("greenbar_iPhone.png");
+	position: absolute;
+	width:105px;
+	height:12px;
+    left: 346px;
+    top: 39px;
+    -webkit-transform-origin:0 50%;
+    -webkit-transform:scaleX(0);
+}
+
+.greenglare{
+	background-image: url("emptybarGreen_iPhone.png");
+	position: absolute;
+	width:105px;
+	height:12px;
+    left: 346px;
+    top: 39px;
+}
+
+.bar1{
+	-webkit-animation: bar1 3s linear;
+}
+
+.bar2{
+	-webkit-animation: bar2 2s linear;
+}
+
+.bar3{
+	-webkit-animation: bar3 4s linear;
+}
+
+.dim{
+	-webkit-filter:brightness(35%);
+}
+
+.bright{
+	-webkit-filter:brightness(100%);
+}
+
+.line1{
+	background-image:url("line1_iPhone.png");
+	position: absolute;
+	width:370px;
+	height:100px;
+    left: 98px;
+    top: 125px;
+}
+
+.a1{
+    left: 98px;
+    top: 209px;
+}
+.a2{
+    left: 173px;
+    top: 158px;
+}
+.a3{
+    left: 248px;
+    top: 107px;
+}
+
+.line2{
+	background-image:url("line2_iPhone.png");
+	position: absolute;
+	width:372px;
+	height:111px;
+    left: 99px;
+    top: 81px;
+}
+
+.prince1{
+    left: 98px;
+    top: 56px;
+}
+.carpet1{
+    left: 173px;
+    top: 107px;
+    -webkit-animation: enlarge .5s ease infinite alternate;
+}
+.carpet2{
+    left: 248px;
+    top: 158px;
+    -webkit-animation: enlarge .5s ease infinite alternate;
+}
+.prince2{
+    left: 322px;
+    top: 158px;
+}
+
+.flashlight{
+	background-image:url("flashLight_iPhone.png");
+	position:absolute;
+	width:103px;
+	height:80px;
+}
+
+.flashmove{
+	-webkit-animation: flashmove 1.5s steps(26) 10;
+}
+
+#flash1{
+	left: 83px;
+    top: 196px;
+}
+
+#flash2{
+    left: 157px;
+    top: 145px;
+}
+
+#flash3{
+	left: 232px;
+    top: 96px;
+}
+
+#flash4{
+    left: 82px;
+    top: 48px;
+}
+
+#flash5{
+    left: 157px;
+    top: 93px;
+}
+
+#flash6{
+    left: 232px;
+    top: 150px;
+}
+
+#flash7{
+    left: 305px;
+    top: 150px;
+}
+
+.megaBurst{
+	background-image:url('megaBurst_iPhone.png');
+	position:absolute;
+	width:441px;
+	height:320px;
+    left: 75px;
+    top: 9px;
+}
+
+.burst1{
+	-webkit-animation: burstturn 10s linear infinite;
+}
+
+.burst2{
+	-webkit-animation: burstreverse 10s linear infinite;
+}
+
+.megaTxt{
+	background-image:url('megaWin_iPhone.png');
+	position:absolute;
+	width:318px;
+	height:66px;
+    left: 126px;
+    top: 80px;
+    -webkit-animation: enlarge .5s ease infinite alternate;
+}
+
+.megaBox{
+	background-image:url('megaBox_iPhone.png');
+	position:absolute;
+	width:303px;
+	height:59px;
+    left: 130px;
+    top: 159px;
+}
+
+.enlargeWin{
+	-webkit-animation: enlargeWin .5s ease-in-out;
+}
+
+.num{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:15px;
+	position:absolute;
+	color:white;
+	text-align:center;
+	width:100px;
+}
+
+.megaPoint{
+    font-size: 45px;
+    top: 162px;
+    left: 234px;
+    font-weight: bold;
+    opacity:0;
+}
+
+.blueNum{
+    left: 384px;
+    top: 10px;
+}
+
+.lineNum{
+    left: 113px;
+    top: 296px;
+}
+
+.betNum{
+    left: 155px;
+    top: 296px;
+    color:black;
+    font-weight: bold;
+}
+
+.totalBet{
+    left: 209px;
+    top: 296px;
+}
+
+.totalNum{
+    left: 269px;
+    top: 10px;
+}
+
+.winNum{
+    left: 293px;
+    top: 296px;
+}
+
+.spin{
+	background-image:url("spin_iPhone.png");
+	position: absolute;
+	width:93px;
+	height:42px;
+    left: 398px;
+    top: 274px;
+    -webkit-animation: blinkspin .3s ease infinite alternate;
+}
+
+.pressed{
+    -webkit-animation: enlargeb .1s ease alternate;
+}
+
+@-webkit-keyframes reel-spin {
+	0% {-webkit-transform: translate(0px, 0px);}
+	50%, 100% {-webkit-transform: translate(0px, 663px);}	
+}
+
+@-webkit-keyframes blinkspin {
+	from{-webkit-filter:brightness(50%);}
+	to{-webkit-filter:brightness(120%);}
+}
+
+@-webkit-keyframes enlarge {
+	0% {-webkit-transform:scale(1);}
+	100% {-webkit-transform:scale(1.3);}	
+}
+
+@-webkit-keyframes enlargeb {
+	0% {-webkit-transform:scale(1);}
+	100% {-webkit-transform:scale(1.1);}	
+}
+
+@-webkit-keyframes enlargeWin {
+	0% {-webkit-transform:scale(.5);}
+	100% {-webkit-transform:scale(1);}	
+}
+
+@-webkit-keyframes bar1 {
+	0% {-webkit-transform:scaleX(0);}
+	100% {-webkit-transform:scaleX(.3);}	
+}
+
+@-webkit-keyframes bar2 {
+	0% {-webkit-transform:scaleX(.3);}
+	100% {-webkit-transform:scaleX(.6);}	
+}
+
+@-webkit-keyframes bar3 {
+	0% {-webkit-transform:scaleX(.6);}
+	100% {-webkit-transform:scaleX(.9);}	
+}
+
+@-webkit-keyframes flashmove {
+	100% { background-position: -2678px;} 
+}
+
+@-webkit-keyframes burstturn {
+	100% { -webkit-transform:rotate(360deg);} 
+}
+
+@-webkit-keyframes burstreverse {
+	100% { -webkit-transform:rotate(-360deg);} 
+}

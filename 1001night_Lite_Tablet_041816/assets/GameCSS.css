@@ -1,0 +1,468 @@
+#game-container{
+	position: absolute;
+	overflow:hidden;
+	width:1024px;
+	height:768px;
+	left: 0px;
+	top: 0px;
+}
+
+.gamebg{
+	background-image:url("gameBG_iPad.png");
+	position: absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+}
+
+.reels{
+	position:absolute;
+	overflow:hidden;
+	width:1024px;
+    height:408px;
+    left: 0px;
+	top: 182px;
+}
+
+#reel1{
+	position: absolute;
+	width:146px;
+    left: 140px;
+}
+
+#reel2{
+	position: absolute;
+	width:146px;
+    left: 289px;
+}
+
+#reel3{
+	position: absolute;
+	width:146px;
+    left: 437px;
+}
+
+#reel4{
+	position: absolute;
+	width:146px;
+    left: 587px;
+}
+
+#reel5{
+	position: absolute;
+	width:146px;
+    left: 734px;
+}
+
+.reel-top{
+	top: -1428px;
+}
+
+.reel-spin{
+	top: -1428px;
+	-webkit-animation: reel-spin 2s cubic-bezier(0.46, 0.1, 0.63, 1.35);
+}
+
+.image1{
+	background-image: url("A_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.image2{
+	background-image: url("camel_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.image3{
+	background-image: url("carpet_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.image4{
+	background-image: url("falcon_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.image5{
+	background-image: url("freespin_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.image6{
+	background-image: url("J_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.image7{
+	background-image: url("K_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.image8{
+	background-image: url("lamp_iPad.png");
+	background-position-y: 117px;
+	position: absolute;
+	width:146px;
+	height:133px;
+}
+
+.image9{
+	background-image: url("prince_iPad.png");
+	position: absolute;
+	width:146px;
+	height:133px;
+	background-position-y: 122px;
+}
+
+.image10{
+	background-image: url("princess_iPad.png");
+	position: absolute;
+	width:146px;
+	height:133px;
+}
+
+.image11{
+	background-image: url("Q_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.image12{
+	background-image: url("wild_iPad.png");
+	position: absolute;
+	width:146px;
+	height:102px;
+}
+
+.level{
+    left: 144px;
+    top:39px;
+    font-weight: bold;
+}
+
+.yellowbar{
+	background-image: url("yellowBar_iPad.png");
+	position: absolute;
+	width:158px;
+	height:24px;
+    left: 288px;
+    top: 48px;
+    -webkit-transform-origin:0 50%;
+    -webkit-transform:scaleX(0);
+}
+
+.yellowglare{
+	background-image: url("emptybarYellow_iPad.png");
+	position: absolute;
+	width:160px;
+	height:26px;
+    left: 287px;
+    top: 46px;
+}
+
+.greenbar{
+	background-image: url("greenBar_iPad.png");
+	position: absolute;
+	width:209px;
+	height:23px;
+    left: 638px;
+    top: 148px;
+    -webkit-transform-origin:0 50%;
+    -webkit-transform:scaleX(0);
+}
+
+.greenglare{
+	background-image: url("emptybarGreen_iPad.png");
+	position: absolute;
+	width:210px;
+	height:24px;
+	left: 638px;
+    top: 145px;
+}
+
+.bar1{
+	-webkit-animation: bar1 3s linear;
+}
+
+.bar2{
+	-webkit-animation: bar2 2s linear;
+}
+
+.bar3{
+	-webkit-animation: bar3 4s linear;
+}
+
+.dim{
+	-webkit-filter:brightness(35%);
+}
+
+.bright{
+	-webkit-filter:brightness(100%);
+}
+
+.line1{
+	background-image:url("line1_iPad.png");
+	position: absolute;
+	width:739px;
+	height:199px;
+    left: 139px;
+    top: 312px;
+}
+
+.a1{
+    left: 140px;
+    top: 488px;
+}
+.a2{
+	left: 289px;
+    top: 386px;
+}
+.a3{
+    left: 437px;
+    top: 284px;
+}
+
+.line2{
+	background-image:url("line2_iPad.png");
+	position: absolute;
+	width:744px;
+	height:221px;
+	left: 139px;
+    top: 234px;
+}
+
+.prince1{
+    left: 140px;
+    top: 181px;
+}
+.carpet1{
+	left: 289px;
+    top: 285px;
+    -webkit-animation: enlarge .5s ease infinite alternate;
+}
+.carpet2{
+    left: 437px;
+    top: 387px;
+    -webkit-animation: enlarge .5s ease infinite alternate;
+}
+.prince2{
+	left: 587px;
+    top: 387px;
+}
+
+.flashlight{
+	background-image:url("flashLight_iPad.png");
+	position:absolute;
+	width:206px;
+	height:159px;
+}
+
+.flashmove{
+	-webkit-animation: flashmove 1.5s steps(26) 10;
+}
+
+#flash1{
+    left: 109px;
+    top: 460px;
+}
+
+#flash2{
+	left: 257px;
+    top: 357px;
+}
+
+#flash3{
+    left: 406px;
+    top: 254px;
+}
+
+#flash4{
+   	left: 109px;
+    top: 167px;
+}
+
+#flash5{
+	left: 257px;
+    top: 250px;
+}
+
+#flash6{
+    left: 406px;
+    top: 353px;
+}
+
+#flash7{
+    left: 555px;
+    top: 353px;
+}
+
+.megaBurst{
+	background-image:url('megaBurst_iPad.png');
+	position:absolute;
+	width:881px;
+	height:768px;
+    left: 74px;
+    top: 10px;
+}
+
+.burst1{
+	-webkit-animation: burstturn 10s linear infinite;
+}
+
+.burst2{
+	-webkit-animation: burstreverse 10s linear infinite;
+}
+
+.megaTxt{
+	background-image:url('megaWin_iPad.png');
+	position:absolute;
+	width:635px;
+	height:131px;
+    left: 192px;
+    top: 235px;
+    -webkit-animation: enlarge .5s ease infinite alternate;
+}
+
+.megaBox{
+	background-image:url('megaBox_iPad.png');
+	position:absolute;
+	width:606px;
+	height:117px;
+    left: 207px;
+    top: 381px;
+}
+
+.enlargeWin{
+	-webkit-animation: enlargeWin .5s ease-in-out;
+}
+
+.num{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:35px;
+	position:absolute;
+	color:white;
+	text-align:center;
+	width:200px;
+}
+
+.megaPoint{
+    font-size:90px;
+    top: 382px;
+    left: 415px;
+    font-weight: bold;
+    opacity:0;
+}
+
+.blueNum{
+    left: 772px;
+    top: 28px;
+}
+
+.lineNum{
+    left: 127px;
+    top: 700px;
+}
+
+.betNum{
+    left: 227px;
+    top: 700px;
+    color:black;
+    font-weight: bold;
+}
+
+.totalBet{
+    left: 356px;
+  	top: 700px;
+}
+
+.totalNum{
+    left: 498px;
+    top: 28px;
+}
+
+.winNum{
+    left: 556px;
+  	top: 700px;
+}
+
+.spin{
+	background-image:url("spin_iPad.png");
+	position: absolute;
+	width:222px;
+	height:100px;
+    left: 786px;
+    top: 650px;
+    -webkit-animation: blinkspin .3s ease infinite alternate;
+}
+
+.pressed{
+    -webkit-animation: enlargeb .1s ease alternate;
+}
+
+@-webkit-keyframes reel-spin {
+	0% {-webkit-transform: translate(0px, 0px);}
+	50%, 100% {-webkit-transform: translate(0px, 1326px);}	
+}
+
+@-webkit-keyframes blinkspin {
+	from{-webkit-filter:brightness(50%);}
+	to{-webkit-filter:brightness(120%);}
+}
+
+@-webkit-keyframes enlarge {
+	0% {-webkit-transform:scale(1);}
+	100% {-webkit-transform:scale(1.3);}	
+}
+
+@-webkit-keyframes enlargeb {
+	0% {-webkit-transform:scale(1);}
+	100% {-webkit-transform:scale(1.1);}	
+}
+
+@-webkit-keyframes enlargeWin {
+	0% {-webkit-transform:scale(.5);}
+	100% {-webkit-transform:scale(1);}	
+}
+
+@-webkit-keyframes bar1 {
+	0% {-webkit-transform:scaleX(0);}
+	100% {-webkit-transform:scaleX(.3);}	
+}
+
+@-webkit-keyframes bar2 {
+	0% {-webkit-transform:scaleX(.3);}
+	100% {-webkit-transform:scaleX(.6);}	
+}
+
+@-webkit-keyframes bar3 {
+	0% {-webkit-transform:scaleX(.6);}
+	100% {-webkit-transform:scaleX(.9);}	
+}
+
+@-webkit-keyframes flashmove {
+	100% { background-position: -5356px;} 
+}
+
+@-webkit-keyframes burstturn {
+	100% { -webkit-transform:rotate(360deg);} 
+}
+
+@-webkit-keyframes burstreverse {
+	100% { -webkit-transform:rotate(-360deg);} 
+}
